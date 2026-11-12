@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-skill-fault-gym"
+version = "0.1.0a1"
+description = "FR: Tester un workflow contre des fautes déterministes | EN: Test workflows against deterministic faults | ES: Probar flujos ante fallos deterministas"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+hermes-skill-fault-gym = "hermes_skill_fault_gym.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["hermes_skill_fault_gym*"]

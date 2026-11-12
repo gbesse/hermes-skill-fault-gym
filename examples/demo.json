@@ -1,0 +1,11 @@
+{
+  "stock": 10,
+  "quantity": 3,
+  "faults": [
+    "none",
+    "before_write",
+    "after_write",
+    "duplicate_delivery",
+    "stale_snapshot"
+  ]
+}
